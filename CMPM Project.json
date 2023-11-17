@@ -94,6 +94,15 @@
         "name": "New image2",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image3.png\"}",
+        "name": "New image3",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
