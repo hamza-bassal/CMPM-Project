@@ -18,7 +18,7 @@
     "gridColor": 10532095,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.585225314684606,
+    "zoomFactor": 0.4063399009390637,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -41,14 +41,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1088,
+      "height": 1085,
       "layer": "",
       "name": "NewTiledSprite",
-      "persistentUuid": "c2c1c179-043f-44d8-a6a8-5205e9f40d38",
+      "persistentUuid": "d0b55204-192c-4467-8e78-4a7a959a387a",
       "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 2,
+      "x": -2,
+      "y": -1,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -563,8 +563,8 @@
               "parameters": [
                 "",
                 "food",
-                "RandomWithStep(0,570,30)",
-                "RandomWithStep(0,570,30)",
+                "RandomWithStep(0,570,60)",
+                "RandomWithStep(0,570,60)",
                 ""
               ]
             },
@@ -1000,7 +1000,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "MOVEMENT",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1104,11 +1103,10 @@
                     },
                     {
                       "type": {
-                        "value": "ModVarObjet"
+                        "value": "ModVarScene"
                       },
                       "parameters": [
-                        "tail",
-                        "UID",
+                        "TailID",
                         "+",
                         "1"
                       ]
@@ -1281,9 +1279,9 @@
                   "parameters": [
                     "food",
                     "=",
-                    "RandomWithStep(0,570,30)",
+                    "RandomWithStep(0,570,60)",
                     "=",
-                    "RandomWithStep(0,570,30)"
+                    "RandomWithStep(0,570,60)"
                   ]
                 },
                 {
@@ -1372,12 +1370,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "MettreY"
+                    "value": "Scene"
                   },
                   "parameters": [
-                    "head",
-                    "=",
-                    "ScreenWidth()-head.Width()"
+                    "",
+                    "\"end\"",
+                    ""
                   ]
                 }
               ]
@@ -1399,12 +1397,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "MettreY"
+                    "value": "Scene"
                   },
                   "parameters": [
-                    "head",
-                    "=",
-                    "0"
+                    "",
+                    "\"end\"",
+                    ""
                   ]
                 }
               ]
@@ -1426,12 +1424,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "MettreX"
+                    "value": "Scene"
                   },
                   "parameters": [
-                    "head",
-                    "=",
-                    "ScreenWidth()-head.Width()"
+                    "",
+                    "\"end\"",
+                    ""
                   ]
                 }
               ]
@@ -1453,12 +1451,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "MettreX"
+                    "value": "Scene"
                   },
                   "parameters": [
-                    "head",
-                    "=",
-                    "0"
+                    "",
+                    "\"end\"",
+                    ""
                   ]
                 }
               ]
