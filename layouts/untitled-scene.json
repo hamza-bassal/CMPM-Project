@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10532095,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.35585841498063714,
+    "snap": false,
+    "zoomFactor": 0.585225314684606,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -30,12 +30,12 @@
       "depth": 1,
       "height": 1088,
       "layer": "",
-      "name": "New_Tile",
-      "persistentUuid": "881dba76-79aa-4ef8-9f31-4b4e2666b836",
+      "name": "NewTiledSprite",
+      "persistentUuid": "c2c1c179-043f-44d8-a6a8-5205e9f40d38",
       "width": 1920,
       "x": 0,
       "y": 0,
-      "zOrder": 1,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -74,6 +74,17 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "NewTiledSprite",
+      "texture": "New image6",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -87,6 +98,9 @@
       },
       {
         "objectName": "New_Tile"
+      },
+      {
+        "objectName": "NewTiledSprite"
       }
     ]
   },
