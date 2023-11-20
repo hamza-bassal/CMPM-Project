@@ -259,6 +259,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/cb5a2db705f09bab16f48ef46a2eccec8bb1bfc1a19cbdc2b794310ee93fff7c_Female Character 1_Walking Up_3.png",
           "name": "Female Character 1_Walking Up_3.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Block.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Block.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/496d885f9f22fbafb52a4e778504b0cf991a7c30df0c62dce3c593ac568b43cd_Block.png",
+          "name": "Block.png"
+        }
       }
     ],
     "resourceFolders": []
