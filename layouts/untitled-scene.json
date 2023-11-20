@@ -587,7 +587,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "CONTROL CHANGE",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1015,11 +1014,24 @@
                     "RTB",
                     "\"RTB\"",
                     ">",
-                    "0.1"
+                    "0.5"
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Big duck sound2.wav",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -1250,7 +1262,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "others",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1291,6 +1302,18 @@
                   "parameters": [
                     "Score",
                     "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "tiny duck quack.wav",
+                    "",
+                    "100",
                     "1"
                   ]
                 }
@@ -1475,6 +1498,11 @@
                   ]
                 }
               ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
               "actions": []
             }
           ],

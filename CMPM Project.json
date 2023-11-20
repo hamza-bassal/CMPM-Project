@@ -242,6 +242,36 @@
         "name": "NewSprite5",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Big duck sound.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Big duck sound.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "tiny duck quack.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "tiny duck quack.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Big duck sound2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Big duck sound2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
