@@ -100,7 +100,7 @@
       "behaviors": []
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "head",
       "type": "Sprite",
@@ -161,20 +161,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 3,
-                        "y": 5
+                        "x": 10,
+                        "y": 0.5
                       },
                       {
-                        "x": 58,
-                        "y": 5
+                        "x": 49,
+                        "y": 0.5
                       },
                       {
-                        "x": 58,
-                        "y": 64
+                        "x": 32,
+                        "y": 38.5
                       },
                       {
-                        "x": 3,
-                        "y": 64
+                        "x": 26.5,
+                        "y": 37.5
                       }
                     ]
                   ]
@@ -210,20 +210,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 3,
-                        "y": 5
+                        "x": 10,
+                        "y": 0.5
                       },
                       {
-                        "x": 58,
-                        "y": 5
+                        "x": 49,
+                        "y": 0.5
                       },
                       {
-                        "x": 58,
-                        "y": 64
+                        "x": 32,
+                        "y": 38.5
                       },
                       {
-                        "x": 3,
-                        "y": 64
+                        "x": 26.5,
+                        "y": 37.5
                       }
                     ]
                   ]
@@ -259,20 +259,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 3,
-                        "y": 5
+                        "x": 10,
+                        "y": 0.5
                       },
                       {
-                        "x": 58,
-                        "y": 5
+                        "x": 49,
+                        "y": 0.5
                       },
                       {
-                        "x": 58,
-                        "y": 64
+                        "x": 32,
+                        "y": 38.5
                       },
                       {
-                        "x": 3,
-                        "y": 64
+                        "x": 26.5,
+                        "y": 37.5
                       }
                     ]
                   ]
@@ -308,20 +308,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 3,
-                        "y": 5
+                        "x": 10,
+                        "y": 0.5
                       },
                       {
-                        "x": 58,
-                        "y": 5
+                        "x": 49,
+                        "y": 0.5
                       },
                       {
-                        "x": 58,
-                        "y": 64
+                        "x": 32,
+                        "y": 38.5
                       },
                       {
-                        "x": 3,
-                        "y": 64
+                        "x": 26.5,
+                        "y": 37.5
                       }
                     ]
                   ]
@@ -646,6 +646,17 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "RotateTowardAngle"
+                  },
+                  "parameters": [
+                    "head",
+                    "360",
+                    "0",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -746,6 +757,17 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "RotateTowardAngle"
+                  },
+                  "parameters": [
+                    "head",
+                    "180",
+                    "0",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -846,6 +868,17 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "RotateTowardAngle"
+                  },
+                  "parameters": [
+                    "head",
+                    "270",
+                    "0",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -945,6 +978,17 @@
                     "right",
                     "=",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RotateTowardAngle"
+                  },
+                  "parameters": [
+                    "head",
+                    "90",
+                    "0",
+                    ""
                   ]
                 }
               ],
