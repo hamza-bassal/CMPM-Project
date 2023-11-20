@@ -1457,7 +1457,7 @@
                   "parameters": [
                     "head",
                     ">=",
-                    "ScreenHeight()"
+                    "1080"
                   ]
                 }
               ],
@@ -1511,7 +1511,7 @@
                   "parameters": [
                     "head",
                     ">=",
-                    "ScreenHeight()"
+                    "1920"
                   ]
                 }
               ],
