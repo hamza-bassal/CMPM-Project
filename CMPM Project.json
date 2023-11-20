@@ -272,6 +272,26 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Swimming.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Swimming.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "splashing.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "splashing.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -293,7 +313,12 @@
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/pixelperfectmovement"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }

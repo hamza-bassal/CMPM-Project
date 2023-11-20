@@ -563,8 +563,8 @@
               "parameters": [
                 "",
                 "food",
-                "RandomWithStep(0,570,60)",
-                "RandomWithStep(0,570,60)",
+                "RandomWithStep(0,570,64)",
+                "RandomWithStep(0,570,64)",
                 ""
               ]
             },
@@ -578,6 +578,15 @@
                 "0",
                 "0",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Quack\""
               ]
             }
           ]
@@ -1069,9 +1078,9 @@
                   },
                   "parameters": [
                     "",
-                    "Big duck sound2.wav",
+                    "splashing.wav",
                     "",
-                    "100",
+                    "10",
                     "1"
                   ]
                 }
@@ -1297,6 +1306,53 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "RTB",
+                    "\"Quack\"",
+                    ">",
+                    ".5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Big duck sound2.wav",
+                    "",
+                    "40",
+                    "1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Quack\""
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -1334,9 +1390,9 @@
                   "parameters": [
                     "food",
                     "=",
-                    "RandomWithStep(0,570,60)",
+                    "RandomWithStep(0,570,64)",
                     "=",
-                    "RandomWithStep(0,570,60)"
+                    "RandomWithStep(0,570,64)"
                   ]
                 },
                 {
@@ -1635,6 +1691,10 @@
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
+      "name": "PixelPerfectTopDownMovement",
+      "type": "PixelPerfectMovement::PixelPerfectTopDownMovement"
+    },
+    {
       "name": "Resizable",
       "type": "ResizableCapability::ResizableBehavior"
     },
@@ -1645,6 +1705,10 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }
   ]
 }
