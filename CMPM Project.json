@@ -301,6 +301,36 @@
         "name": "NewSprite6",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "Bump.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Bump.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "snake eat.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "snake eat.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Hiss.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Hiss.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
