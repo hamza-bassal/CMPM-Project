@@ -18,7 +18,7 @@
     "gridColor": 10532095,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4063399009390637,
+    "zoomFactor": 0.2821342668407154,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -481,6 +481,96 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner",
+          "SpawnPeriod": 1,
+          "OffsetX": 0,
+          "OffsetY": 0,
+          "JustSpawnedAnObject": false,
+          "MaxQuantityReached": false,
+          "MaxQuantity": 0,
+          "SpawnerCapacity": 0,
+          "UnlimitedCapacity": true
+        },
+        {
+          "acceleration": 500,
+          "allowDiagonals": false,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 64,
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -509,6 +599,9 @@
       },
       {
         "objectName": "Score"
+      },
+      {
+        "objectName": "NewSprite"
       }
     ]
   },
@@ -1416,6 +1509,16 @@
                     "100",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Spawn",
+                    "+",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -1607,6 +1710,156 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "snakes?",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Spawn",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite",
+                    "RandomWithStep(0,570,64)",
+                    "RandomWithStep(0,570,64)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Spawn",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "NewSprite",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "tail",
+                    "NewSprite",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Pathfinding",
+                    "",
+                    "tail.PointX(\"origin\")",
+                    "tail.PointY(\"origin\")"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "tail",
+                    "NewSprite",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Score",
+                    "-",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "head",
+                    "NewSprite",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "parameters": []
@@ -1687,12 +1940,16 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
+      "name": "ObjectSpawner",
+      "type": "ObjectSpawner::ObjectSpawner"
+    },
+    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
-      "name": "PixelPerfectTopDownMovement",
-      "type": "PixelPerfectMovement::PixelPerfectTopDownMovement"
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
     },
     {
       "name": "Resizable",
@@ -1705,10 +1962,6 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
-    },
-    {
-      "name": "TopDownMovement",
-      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }
   ]
 }
