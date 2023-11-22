@@ -292,6 +292,60 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mommyduck1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"mommyduck1.png\",\"extension\":\".png\"}",
+        "name": "mommyduck1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "babyduck.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "babyduck.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "egg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "egg.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "babyduck2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "babyduck2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mommyduck2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"mommyduck2.png\",\"extension\":\".png\"}",
+        "name": "mommyduck2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "egg2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "egg2.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
