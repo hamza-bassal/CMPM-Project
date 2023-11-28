@@ -346,6 +346,96 @@
         "name": "egg2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/babyduck2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "babyduck2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/egg2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/egg2.png\"}",
+        "name": "egg2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mommyduck2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mommyduck2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/egg3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "egg3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/babyduck3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "babyduck3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/egg4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/egg4.png\"}",
+        "name": "egg4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mommyduck3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/mommyduck3.png\"}",
+        "name": "mommyduck3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/egg5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "egg5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/babyduck4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "babyduck4",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
