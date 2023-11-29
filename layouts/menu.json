@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2796226521839381,
+    "zoomFactor": 0.23689563725446622,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -626,7 +626,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite10",
+                  "image": "NewSprite12",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
