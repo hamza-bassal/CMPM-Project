@@ -749,7 +749,7 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 1,
+              "timeBetweenFrames": 2,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -789,7 +789,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite6",
+                  "image": "NewSprite7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1893,6 +1893,17 @@
                     "",
                     "40",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Animation",
+                    "=",
+                    "\"NewSprite\""
                   ]
                 }
               ]
