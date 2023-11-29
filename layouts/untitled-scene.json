@@ -18,7 +18,7 @@
     "gridColor": 10532095,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.15531049375442177,
+    "zoomFactor": 0.11147313741362513,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -718,13 +718,15 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "EnemySnake",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 9999,
           "allowDiagonals": false,
           "angleOffset": 0,
@@ -735,10 +737,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 64,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "animations": [
@@ -749,7 +749,7 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 2,
+              "timeBetweenFrames": 1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -870,7 +870,7 @@
         "objectName": "Egg"
       },
       {
-        "objectName": "NewSprite"
+        "objectName": "EnemySnake"
       }
     ]
   },
@@ -1867,7 +1867,7 @@
                   },
                   "parameters": [
                     "",
-                    "NewSprite",
+                    "EnemySnake",
                     "RandomWithStep(0,640,64)",
                     "RandomWithStep(0,640,64)",
                     ""
@@ -1900,7 +1900,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "NewSprite",
+                    "EnemySnake",
                     "Animation",
                     "=",
                     "\"NewSprite\""
@@ -1910,7 +1910,7 @@
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
-              "object": "NewSprite",
+              "object": "EnemySnake",
               "conditions": [
                 {
                   "type": {
@@ -1919,7 +1919,7 @@
                   },
                   "parameters": [
                     "Duckling",
-                    "NewSprite",
+                    "EnemySnake",
                     "",
                     "",
                     ""
@@ -1932,7 +1932,7 @@
                     "value": "PathfindingBehavior::SetDestination"
                   },
                   "parameters": [
-                    "NewSprite",
+                    "EnemySnake",
                     "Pathfinding",
                     "",
                     "Duckling.PointX(\"center\")",
@@ -1944,7 +1944,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "NewSprite",
+                    "EnemySnake",
                     "Animation",
                     "=",
                     "\"NewSprite\""
@@ -1955,7 +1955,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
                   },
                   "parameters": [
-                    "NewSprite",
+                    "EnemySnake",
                     "Animation",
                     "=",
                     "3"
@@ -1972,7 +1972,7 @@
                   },
                   "parameters": [
                     "Duckling",
-                    "NewSprite",
+                    "EnemySnake",
                     "",
                     "",
                     ""
@@ -1985,7 +1985,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "NewSprite",
+                    "EnemySnake",
                     ""
                   ]
                 },
@@ -2034,7 +2034,7 @@
                   },
                   "parameters": [
                     "Mama_Duck",
-                    "NewSprite",
+                    "EnemySnake",
                     "",
                     "",
                     ""
@@ -2047,7 +2047,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "NewSprite",
+                    "EnemySnake",
                     ""
                   ]
                 },

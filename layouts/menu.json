@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2890516203134923,
+    "zoomFactor": 0.2796226521839381,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -49,8 +49,8 @@
       "name": "NewTiledSprite",
       "persistentUuid": "c89b7484-1b9e-4109-b6fc-c28f2b83be14",
       "width": 2385,
-      "x": -214,
-      "y": -185,
+      "x": -253,
+      "y": -194,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -128,6 +128,54 @@
       "x": 487,
       "y": 78,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 182,
+      "customSize": true,
+      "depth": 1,
+      "height": 232,
+      "layer": "",
+      "name": "EnemySnake",
+      "persistentUuid": "61ccb065-d632-4049-af08-9e662265036b",
+      "width": 350,
+      "x": 1922,
+      "y": 846,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 700,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "cb01c621-c9e2-46b5-8d52-258944f428b4",
+      "width": 700,
+      "x": 193,
+      "y": 132,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 700,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "fbc0f2b0-a8c7-4d4d-a11b-e1564b526f6c",
+      "width": 700,
+      "x": 994,
+      "y": 131,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -332,7 +380,7 @@
           "BorderLeft": 0,
           "BorderRight": 0,
           "BorderBottom": 0,
-          "TriggerOffset": 0
+          "TriggerOffset": 100
         }
       ],
       "animations": [
@@ -386,6 +434,237 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "EnemySnake",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ScreenWrap",
+          "type": "ScreenWrap::ScreenWrap",
+          "HorizontalWrapping": true,
+          "VerticalWrapping": true,
+          "BorderTop": 0,
+          "BorderLeft": 0,
+          "BorderRight": 0,
+          "BorderBottom": 0,
+          "TriggerOffset": 100
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 27.5
+                      },
+                      {
+                        "x": 9.5,
+                        "y": 28
+                      },
+                      {
+                        "x": 9.5,
+                        "y": 42.5
+                      },
+                      {
+                        "x": 1,
+                        "y": 42.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 27.5
+                      },
+                      {
+                        "x": 9.5,
+                        "y": 28
+                      },
+                      {
+                        "x": 9.5,
+                        "y": 42.5
+                      },
+                      {
+                        "x": 1,
+                        "y": 42.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 11
+                      },
+                      {
+                        "x": 51,
+                        "y": 11
+                      },
+                      {
+                        "x": 51,
+                        "y": 56
+                      },
+                      {
+                        "x": 1,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 11
+                      },
+                      {
+                        "x": 63,
+                        "y": 11
+                      },
+                      {
+                        "x": 63,
+                        "y": 56
+                      },
+                      {
+                        "x": 13,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -405,6 +684,15 @@
       },
       {
         "objectName": "Mama_Duck"
+      },
+      {
+        "objectName": "EnemySnake"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "NewSprite2"
       }
     ]
   },
@@ -460,6 +748,46 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Arret"
+          },
+          "parameters": [
+            "EnemySnake"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceAL"
+          },
+          "parameters": [
+            "EnemySnake",
+            "180",
+            "800",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+          },
+          "parameters": [
+            "EnemySnake",
+            "Animation"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
