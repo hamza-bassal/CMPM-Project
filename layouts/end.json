@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.25314140012986225,
+    "zoomFactor": 0.4448515998886648,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -26,48 +26,15 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 412,
+      "customSize": false,
+      "height": 0,
       "layer": "",
       "name": "end_game",
       "persistentUuid": "f048924b-186f-4783-b173-5082b449ede3",
-      "width": 575,
-      "x": 718,
-      "y": 375,
+      "width": 0,
+      "x": 142,
+      "y": 226,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 32,
-      "height": 120,
-      "layer": "",
-      "name": "GreenButtonWithShadow",
-      "persistentUuid": "66d5c085-c95c-4a78-832e-ce814f6114a5",
-      "width": 442,
-      "x": 711,
-      "y": 447,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1855,
-      "layer": "",
-      "name": "NewTiledSprite",
-      "persistentUuid": "af060082-d0bf-4777-bef2-2ad96c62ae2b",
-      "width": 3031,
-      "x": -572,
-      "y": -396,
-      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -103,7 +70,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Game Over!\n\n\nYou ran over your \nown ducklings!\n",
+      "string": "Game Over!\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 60,
@@ -112,91 +79,6 @@
         "g": 0,
         "r": 0
       }
-    },
-    {
-      "assetStoreId": "04d5d9530483f54e8bd6536da53180cbab0715b94cb135b0028f5ff621194073",
-      "height": 128,
-      "name": "GrassAndTreeBackground",
-      "texture": "tiled_Grass and Tree Background.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 128,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "569b45d3c7c34f7706563239938d04ca599016ff9857ee38c945c72330d4339e",
-      "name": "GreenButtonWithShadow",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 3,
-        "BottomPadding": 32,
-        "TopPadding": 32,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Green Button With Shadow_Hovered.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Green Button With Shadow_Idle.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "retry?",
-          "font": "CantoraOne-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 40,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 69,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Green Button With Shadow_Pressed.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        }
-      }
-    },
-    {
-      "assetStoreId": "",
-      "height": 128,
-      "name": "NewTiledSprite",
-      "texture": "New image6",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 128,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -207,46 +89,10 @@
       },
       {
         "objectName": "end_game"
-      },
-      {
-        "objectName": "GrassAndTreeBackground"
-      },
-      {
-        "objectName": "GreenButtonWithShadow"
-      },
-      {
-        "objectName": "NewTiledSprite"
       }
     ]
   },
-  "events": [
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
-          },
-          "parameters": [
-            "GreenButtonWithShadow",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Menu\"",
-            ""
-          ]
-        }
-      ]
-    }
-  ],
+  "events": [],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -298,16 +144,8 @@
       "type": "EffectCapability::EffectBehavior"
     },
     {
-      "name": "Flippable",
-      "type": "FlippableCapability::FlippableBehavior"
-    },
-    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
-    },
-    {
-      "name": "Resizable",
-      "type": "ResizableCapability::ResizableBehavior"
     },
     {
       "name": "Scale",

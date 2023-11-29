@@ -18,7 +18,7 @@
     "gridColor": 10532095,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6253587329325448,
+    "zoomFactor": 0.2821342668407154,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -41,13 +41,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1154,
+      "height": 1085,
       "layer": "",
-      "name": "_256",
-      "persistentUuid": "60831c30-1a89-4cc7-96a5-ec17c05085b3",
-      "width": 1923,
-      "x": 0,
-      "y": -3,
+      "name": "NewTiledSprite",
+      "persistentUuid": "d0b55204-192c-4467-8e78-4a7a959a387a",
+      "width": 1920,
+      "x": -2,
+      "y": -1,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -469,17 +469,10 @@
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "Score",
-          "type": "string",
-          "value": ""
-        }
-      ],
+      "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Score",
+      "string": "score",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -490,171 +483,46 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": false,
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Duckling",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "UID",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "babyduck2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "babyduck4",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 17.5
-                      },
-                      {
-                        "x": 77,
-                        "y": 17.5
-                      },
-                      {
-                        "x": 77,
-                        "y": 79.5
-                      },
-                      {
-                        "x": 20.5,
-                        "y": 80.5
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "Mama_Duck",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "up",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "name": "down",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "name": "left",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "name": "right",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "mommyduck2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "mommyduck3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 13,
-                    "y": 8
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0.5,
-                        "y": 0
-                      },
-                      {
-                        "x": 99,
-                        "y": 0
-                      },
-                      {
-                        "x": 48,
-                        "y": 52
-                      },
-                      {
-                        "x": 45.5,
-                        "y": 52
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "Egg",
+      "name": "NewSprite",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner",
+          "SpawnPeriod": 1,
+          "OffsetX": 0,
+          "OffsetY": 0,
+          "JustSpawnedAnObject": false,
+          "MaxQuantityReached": false,
+          "MaxQuantity": 0,
+          "SpawnerCapacity": 0,
+          "UnlimitedCapacity": true
+        },
+        {
+          "acceleration": 1000,
+          "allowDiagonals": false,
+          "angleOffset": 0,
+          "angularMaxSpeed": 900,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 64,
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
       "animations": [
         {
-          "name": "egg2",
+          "name": "NewSprite",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -664,7 +532,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "egg5",
+                  "image": "NewSprite6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -680,20 +548,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 25,
-                        "y": 18.5
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 82.5,
-                        "y": 17.5
+                        "x": 64,
+                        "y": 0
                       },
                       {
-                        "x": 84,
-                        "y": 78.5
+                        "x": 64,
+                        "y": 64
                       },
                       {
-                        "x": 17,
-                        "y": 76.5
+                        "x": 0,
+                        "y": 64
                       }
                     ]
                   ]
@@ -703,17 +571,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 256,
-      "name": "_256",
-      "texture": "New image7",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 256,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -732,9 +589,6 @@
         "objectName": "NewTiledSprite"
       },
       {
-        "objectName": "_256"
-      },
-      {
         "objectName": "head"
       },
       {
@@ -747,13 +601,7 @@
         "objectName": "Score"
       },
       {
-        "objectName": "Duckling"
-      },
-      {
-        "objectName": "Mama_Duck"
-      },
-      {
-        "objectName": "Egg"
+        "objectName": "NewSprite"
       }
     ]
   },
@@ -786,7 +634,7 @@
               },
               "parameters": [
                 "",
-                "Mama_Duck",
+                "head",
                 "0",
                 "0",
                 ""
@@ -807,19 +655,10 @@
               },
               "parameters": [
                 "",
-                "Egg",
-                "RandomWithStep(0,500,256)",
-                "RandomWithStep(0,500,256)",
+                "food",
+                "RandomWithStep(0,570,64)",
+                "RandomWithStep(0,570,64)",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Quack\""
               ]
             },
             {
@@ -832,6 +671,15 @@
                 "0",
                 "0",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Quack\""
               ]
             }
           ]
@@ -862,7 +710,7 @@
                     "value": "VarObjet"
                   },
                   "parameters": [
-                    "Mama_Duck",
+                    "head",
                     "down",
                     "!=",
                     "1"
@@ -895,7 +743,7 @@
                     "value": "ModVarObjet"
                   },
                   "parameters": [
-                    "Mama_Duck",
+                    "head",
                     "up",
                     "=",
                     "1"
@@ -906,7 +754,7 @@
                     "value": "RotateTowardAngle"
                   },
                   "parameters": [
-                    "Mama_Duck",
+                    "head",
                     "360",
                     "0",
                     ""
@@ -922,7 +770,7 @@
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "up",
                         "=",
                         "1"
@@ -935,7 +783,7 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "left",
                         "=",
                         "0"
@@ -946,7 +794,7 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "right",
                         "=",
                         "0"
@@ -973,7 +821,7 @@
                     "value": "VarObjet"
                   },
                   "parameters": [
-                    "Mama_Duck",
+                    "head",
                     "up",
                     "!=",
                     "1"
@@ -1006,7 +854,7 @@
                     "value": "ModVarObjet"
                   },
                   "parameters": [
-                    "Mama_Duck",
+                    "head",
                     "down",
                     "=",
                     "1"
@@ -1017,7 +865,7 @@
                     "value": "RotateTowardAngle"
                   },
                   "parameters": [
-                    "Mama_Duck",
+                    "head",
                     "180",
                     "0",
                     ""
@@ -1033,7 +881,7 @@
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "down",
                         "=",
                         "1"
@@ -1046,7 +894,7 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "right",
                         "=",
                         "0"
@@ -1057,7 +905,7 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "left",
                         "=",
                         "0"
@@ -1084,7 +932,7 @@
                     "value": "VarObjet"
                   },
                   "parameters": [
-                    "Mama_Duck",
+                    "head",
                     "right",
                     "!=",
                     "1"
@@ -1117,7 +965,7 @@
                     "value": "ModVarObjet"
                   },
                   "parameters": [
-                    "Mama_Duck",
+                    "head",
                     "left",
                     "=",
                     "1"
@@ -1128,7 +976,7 @@
                     "value": "RotateTowardAngle"
                   },
                   "parameters": [
-                    "Mama_Duck",
+                    "head",
                     "270",
                     "0",
                     ""
@@ -1144,7 +992,7 @@
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "left",
                         "=",
                         "1"
@@ -1157,7 +1005,7 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "up",
                         "=",
                         "0"
@@ -1168,7 +1016,7 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "down",
                         "=",
                         "0"
@@ -1195,7 +1043,7 @@
                     "value": "VarObjet"
                   },
                   "parameters": [
-                    "Mama_Duck",
+                    "head",
                     "left",
                     "!=",
                     "1"
@@ -1228,7 +1076,7 @@
                     "value": "ModVarObjet"
                   },
                   "parameters": [
-                    "Mama_Duck",
+                    "head",
                     "right",
                     "=",
                     "1"
@@ -1239,7 +1087,7 @@
                     "value": "RotateTowardAngle"
                   },
                   "parameters": [
-                    "Mama_Duck",
+                    "head",
                     "90",
                     "0",
                     ""
@@ -1255,7 +1103,7 @@
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "right",
                         "=",
                         "1"
@@ -1268,7 +1116,7 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "up",
                         "=",
                         "0"
@@ -1279,7 +1127,7 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "down",
                         "=",
                         "0"
@@ -1312,7 +1160,7 @@
                     "RTB",
                     "\"RTB\"",
                     ">",
-                    "0.3"
+                    "0.5"
                   ]
                 }
               ],
@@ -1345,7 +1193,7 @@
                             "value": "VarObjet"
                           },
                           "parameters": [
-                            "Mama_Duck",
+                            "head",
                             "up",
                             "=",
                             "1"
@@ -1356,7 +1204,7 @@
                             "value": "VarObjet"
                           },
                           "parameters": [
-                            "Mama_Duck",
+                            "head",
                             "down",
                             "=",
                             "1"
@@ -1367,7 +1215,7 @@
                             "value": "VarObjet"
                           },
                           "parameters": [
-                            "Mama_Duck",
+                            "head",
                             "left",
                             "=",
                             "1"
@@ -1378,7 +1226,7 @@
                             "value": "VarObjet"
                           },
                           "parameters": [
-                            "Mama_Duck",
+                            "head",
                             "right",
                             "=",
                             "1"
@@ -1394,9 +1242,9 @@
                       },
                       "parameters": [
                         "",
-                        "Duckling",
-                        "Mama_Duck.X()",
-                        "Mama_Duck.Y()",
+                        "tail",
+                        "head.X()",
+                        "head.Y()",
                         ""
                       ]
                     },
@@ -1405,10 +1253,10 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "Duckling",
+                        "tail",
                         "UID",
                         "=",
-                        "Variable(DucklingID)"
+                        "Variable(TailID)"
                       ]
                     },
                     {
@@ -1416,127 +1264,9 @@
                         "value": "ModVarScene"
                       },
                       "parameters": [
-                        "DucklingID",
+                        "TailID",
                         "+",
                         "1"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Mama_Duck",
-                            "up",
-                            "=",
-                            "1"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "RotateTowardAngle"
-                          },
-                          "parameters": [
-                            "Duckling",
-                            "360",
-                            "0",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Mama_Duck",
-                            "down",
-                            "=",
-                            "1"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "RotateTowardAngle"
-                          },
-                          "parameters": [
-                            "Duckling",
-                            "180",
-                            "0",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Mama_Duck",
-                            "left",
-                            "=",
-                            "1"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "RotateTowardAngle"
-                          },
-                          "parameters": [
-                            "Duckling",
-                            "270",
-                            "0",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Mama_Duck",
-                            "right",
-                            "=",
-                            "1"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "RotateTowardAngle"
-                          },
-                          "parameters": [
-                            "Duckling",
-                            "90",
-                            "0",
-                            ""
-                          ]
-                        }
                       ]
                     }
                   ]
@@ -1549,7 +1279,7 @@
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "up",
                         "=",
                         "1"
@@ -1562,9 +1292,9 @@
                         "value": "MettreY"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "-",
-                        "Mama_Duck.Height()"
+                        "head.Height()"
                       ]
                     }
                   ]
@@ -1577,7 +1307,7 @@
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "down",
                         "=",
                         "1"
@@ -1590,9 +1320,9 @@
                         "value": "MettreY"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "+",
-                        "Mama_Duck.Height()"
+                        "head.Height()"
                       ]
                     }
                   ]
@@ -1605,7 +1335,7 @@
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "left",
                         "=",
                         "1"
@@ -1618,9 +1348,9 @@
                         "value": "MettreX"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "-",
-                        "Mama_Duck.Height()"
+                        "head.Height()"
                       ]
                     }
                   ]
@@ -1633,7 +1363,7 @@
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "right",
                         "=",
                         "1"
@@ -1646,9 +1376,9 @@
                         "value": "MettreX"
                       },
                       "parameters": [
-                        "Mama_Duck",
+                        "head",
                         "+",
-                        "Mama_Duck.Height()"
+                        "head.Height()"
                       ]
                     }
                   ]
@@ -1737,8 +1467,8 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Mama_Duck",
-                    "Egg",
+                    "head",
+                    "food",
                     "",
                     "",
                     ""
@@ -1751,7 +1481,7 @@
                     "value": "MettreXY"
                   },
                   "parameters": [
-                    "Egg",
+                    "food",
                     "=",
                     "RandomWithStep(0,570,64)",
                     "=",
@@ -1770,17 +1500,6 @@
                 },
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Score",
-                    "Text",
-                    "=",
-                    "VariableString(Score)"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "PlaySound"
                   },
                   "parameters": [
@@ -1788,6 +1507,16 @@
                     "tiny duck quack.wav",
                     "",
                     "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Spawn",
+                    "+",
                     "1"
                   ]
                 }
@@ -1801,8 +1530,8 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Mama_Duck",
-                    "Duckling",
+                    "head",
+                    "tail",
                     "",
                     "",
                     ""
@@ -1824,17 +1553,17 @@
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Duckling",
+              "object": "tail",
               "conditions": [
                 {
                   "type": {
                     "value": "VarObjet"
                   },
                   "parameters": [
-                    "Duckling",
+                    "tail",
                     "UID",
                     "<=",
-                    "Variable(DucklingID)-Variable(Score)-1"
+                    "Variable(TailID)-Variable(Score)-1"
                   ]
                 }
               ],
@@ -1844,7 +1573,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Duckling",
+                    "tail",
                     ""
                   ]
                 }
@@ -1858,7 +1587,7 @@
                     "value": "PosY"
                   },
                   "parameters": [
-                    "Mama_Duck",
+                    "head",
                     "<=",
                     "-1"
                   ]
@@ -1871,7 +1600,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"end2\"",
+                    "\"end\"",
                     ""
                   ]
                 }
@@ -1885,7 +1614,7 @@
                     "value": "PosY"
                   },
                   "parameters": [
-                    "Mama_Duck",
+                    "head",
                     ">=",
                     "1080"
                   ]
@@ -1898,7 +1627,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"end2\"",
+                    "\"end\"",
                     ""
                   ]
                 }
@@ -1912,7 +1641,7 @@
                     "value": "PosX"
                   },
                   "parameters": [
-                    "Mama_Duck",
+                    "head",
                     "<=",
                     "-1"
                   ]
@@ -1925,7 +1654,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"end2\"",
+                    "\"end\"",
                     ""
                   ]
                 }
@@ -1939,7 +1668,7 @@
                     "value": "PosX"
                   },
                   "parameters": [
-                    "Mama_Duck",
+                    "head",
                     ">=",
                     "1920"
                   ]
@@ -1952,7 +1681,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"end2\"",
+                    "\"end\"",
                     ""
                   ]
                 }
@@ -1978,6 +1707,204 @@
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "snakes?",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Spawn",
+                    ">",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite",
+                    "RandomWithStep(0,640,64)",
+                    "RandomWithStep(0,640,64)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Spawn",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Hiss.wav",
+                    "",
+                    "40",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "NewSprite",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "tail",
+                    "NewSprite",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Pathfinding",
+                    "",
+                    "tail.PointX(\"center\")",
+                    "tail.PointY(\"center\")"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "tail",
+                    "NewSprite",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Score",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "snake eat.wav",
+                    "",
+                    "80",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "tiny duck quack.wav",
+                    "",
+                    "80",
+                    ".1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "head",
+                    "NewSprite",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Bump.wav",
+                    "",
+                    "70",
+                    "1"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -2061,8 +1988,16 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
+      "name": "ObjectSpawner",
+      "type": "ObjectSpawner::ObjectSpawner"
+    },
+    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
     },
     {
       "name": "Resizable",
