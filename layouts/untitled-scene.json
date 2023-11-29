@@ -18,7 +18,7 @@
     "gridColor": 10532095,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6253587329325448,
+    "zoomFactor": 0.15531049375442177,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -41,13 +41,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1154,
+      "height": 1925,
       "layer": "",
       "name": "_256",
       "persistentUuid": "60831c30-1a89-4cc7-96a5-ec17c05085b3",
-      "width": 1923,
-      "x": 0,
-      "y": -3,
+      "width": 3067,
+      "x": -383,
+      "y": -263,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -517,7 +517,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "babyduck4",
+                  "image": "babyduck2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -533,20 +533,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 21,
-                        "y": 17.5
+                        "x": 27,
+                        "y": 28
                       },
                       {
-                        "x": 77,
-                        "y": 17.5
+                        "x": 73.5,
+                        "y": 28
                       },
                       {
-                        "x": 77,
-                        "y": 79.5
+                        "x": 87,
+                        "y": 100
                       },
                       {
-                        "x": 20.5,
-                        "y": 80.5
+                        "x": 15,
+                        "y": 100
                       }
                     ]
                   ]
@@ -623,16 +623,16 @@
                         "y": 0
                       },
                       {
-                        "x": 99,
+                        "x": 128,
                         "y": 0
                       },
                       {
-                        "x": 48,
-                        "y": 52
+                        "x": 88.5,
+                        "y": 54
                       },
                       {
-                        "x": 45.5,
-                        "y": 52
+                        "x": 40.5,
+                        "y": 54
                       }
                     ]
                   ]
@@ -664,7 +664,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "egg5",
+                  "image": "egg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -714,6 +714,120 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 9999,
+          "allowDiagonals": false,
+          "angleOffset": 0,
+          "angularMaxSpeed": 999,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 64,
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -754,6 +868,9 @@
       },
       {
         "objectName": "Egg"
+      },
+      {
+        "objectName": "NewSprite"
       }
     ]
   },
@@ -808,8 +925,8 @@
               "parameters": [
                 "",
                 "Egg",
-                "RandomWithStep(0,500,256)",
-                "RandomWithStep(0,500,256)",
+                "RandomWithStep(0,570,64)",
+                "RandomWithStep(0,570,64)",
                 ""
               ]
             },
@@ -1725,6 +1842,226 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "snakes?",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Spawn",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite",
+                    "RandomWithStep(0,640,64)",
+                    "RandomWithStep(0,640,64)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Spawn",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Hiss.wav",
+                    "",
+                    "40",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "NewSprite",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Duckling",
+                    "NewSprite",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Pathfinding",
+                    "",
+                    "Duckling.PointX(\"center\")",
+                    "Duckling.PointY(\"center\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Animation",
+                    "=",
+                    "\"NewSprite\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Animation",
+                    "=",
+                    "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Duckling",
+                    "NewSprite",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Score",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "snake eat.wav",
+                    "",
+                    "80",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "tiny duck quack.wav",
+                    "",
+                    "80",
+                    ".1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Mama_Duck",
+                    "NewSprite",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Bump.wav",
+                    "",
+                    "70",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "others",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1788,6 +2125,16 @@
                     "tiny duck quack.wav",
                     "",
                     "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Spawn",
+                    "+",
                     "1"
                   ]
                 }
@@ -2063,6 +2410,10 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
     },
     {
       "name": "Resizable",
