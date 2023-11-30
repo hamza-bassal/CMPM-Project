@@ -2116,6 +2116,17 @@
                 },
                 {
                   "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Score",
+                    "Text",
+                    "=",
+                    "VariableString(Score)"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySound"
                   },
                   "parameters": [
