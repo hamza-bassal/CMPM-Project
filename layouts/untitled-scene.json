@@ -528,7 +528,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "babyduck2.png",
+                  "image": "babyduck5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -544,20 +544,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 27,
-                        "y": 28
+                        "x": 0.5,
+                        "y": 2
                       },
                       {
-                        "x": 73.5,
-                        "y": 28
+                        "x": 62,
+                        "y": 2
                       },
                       {
-                        "x": 87,
-                        "y": 100
+                        "x": 64,
+                        "y": 64
                       },
                       {
-                        "x": 15,
-                        "y": 100
+                        "x": 0,
+                        "y": 64
                       }
                     ]
                   ]
@@ -614,7 +614,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "mommyduck5",
+                  "image": "mommyduck6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -630,20 +630,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0.5,
+                        "x": 9.5,
                         "y": 0
                       },
                       {
-                        "x": 128,
+                        "x": 53,
                         "y": 0
                       },
                       {
-                        "x": 128,
-                        "y": 55
+                        "x": 37,
+                        "y": 57.5
                       },
                       {
-                        "x": 0,
-                        "y": 54.5
+                        "x": 28,
+                        "y": 56.5
                       }
                     ]
                   ]
@@ -675,7 +675,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "egg.png",
+                  "image": "egg6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -691,20 +691,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 25,
-                        "y": 18.5
+                        "x": 11,
+                        "y": 0.5
                       },
                       {
-                        "x": 82.5,
-                        "y": 17.5
+                        "x": 52,
+                        "y": 1.5
                       },
                       {
-                        "x": 84,
-                        "y": 78.5
+                        "x": 59,
+                        "y": 59.5
                       },
                       {
-                        "x": 17,
-                        "y": 76.5
+                        "x": 4.5,
+                        "y": 60
                       }
                     ]
                   ]
@@ -775,7 +775,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite13",
+                  "image": "NewSprite15",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -792,26 +792,26 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 18.5
                       },
                       {
-                        "x": 64,
-                        "y": 0
+                        "x": 57,
+                        "y": 18.5
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 57.5,
+                        "y": 43
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 43
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite14",
+                  "image": "NewSprite16",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -828,19 +828,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 18.5
                       },
                       {
-                        "x": 64,
-                        "y": 0
+                        "x": 57,
+                        "y": 18.5
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 57.5,
+                        "y": 43
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 43
                       }
                     ]
                   ]
@@ -866,248 +866,6 @@
       "variables": [],
       "effects": [],
       "behaviors": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "mommy_duck_64",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "mamaduck66.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 18,
-                        "y": 0
-                      },
-                      {
-                        "x": 41,
-                        "y": 0
-                      },
-                      {
-                        "x": 41,
-                        "y": 53
-                      },
-                      {
-                        "x": 18,
-                        "y": 53
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "duckling64",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "duckling66",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "duckling66",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 10,
-                        "y": 4
-                      },
-                      {
-                        "x": 52,
-                        "y": 4
-                      },
-                      {
-                        "x": 52,
-                        "y": 61
-                      },
-                      {
-                        "x": 10,
-                        "y": 61
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "egg64",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "egg66",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "egg66.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 5
-                      },
-                      {
-                        "x": 61,
-                        "y": 5
-                      },
-                      {
-                        "x": 61,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "snake1",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "snake1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 23,
-                        "y": 2
-                      },
-                      {
-                        "x": 41,
-                        "y": 2
-                      },
-                      {
-                        "x": 41,
-                        "y": 61
-                      },
-                      {
-                        "x": 23,
-                        "y": 61
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1154,18 +912,6 @@
       },
       {
         "objectName": "NewPanelSprite"
-      },
-      {
-        "objectName": "mommy_duck_64"
-      },
-      {
-        "objectName": "duckling64"
-      },
-      {
-        "objectName": "egg64"
-      },
-      {
-        "objectName": "snake1"
       }
     ]
   },

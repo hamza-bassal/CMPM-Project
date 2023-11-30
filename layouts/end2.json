@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2531414001298625,
+    "zoomFactor": 0.3192894589690171,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,8 +32,8 @@
       "layer": "",
       "name": "end_game",
       "persistentUuid": "f048924b-186f-4783-b173-5082b449ede3",
-      "width": 575,
-      "x": 718,
+      "width": 589,
+      "x": 641,
       "y": 375,
       "zOrder": 1,
       "numberProperties": [],
@@ -60,13 +60,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1855,
+      "height": 1036,
       "layer": "",
-      "name": "NewTiledSprite",
-      "persistentUuid": "af060082-d0bf-4777-bef2-2ad96c62ae2b",
-      "width": 3031,
-      "x": -576,
-      "y": -384,
+      "name": "NewPanelSprite",
+      "persistentUuid": "825b8bf3-9ac9-46c2-b499-c0cd998e841d",
+      "width": 1935,
+      "x": -9,
+      "y": -10,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -103,9 +103,9 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Game Over!\n\n\nYou left your\nducklings\nall alone!\nMonster!\n",
+      "string": "Game Over!\n\n\nYou left your ducklings\nall alone!\nMonster!\n",
       "font": "",
-      "textAlignment": "left",
+      "textAlignment": "center",
       "characterSize": 60,
       "color": {
         "b": 0,
@@ -197,6 +197,22 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 32,
+      "leftMargin": 0,
+      "name": "NewPanelSprite",
+      "rightMargin": 0,
+      "texture": "pond background.png",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -216,6 +232,9 @@
       },
       {
         "objectName": "NewTiledSprite"
+      },
+      {
+        "objectName": "NewPanelSprite"
       }
     ]
   },

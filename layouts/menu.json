@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.41630252177333454,
+    "zoomFactor": 0.599573838911111,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -42,22 +42,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1468,
-      "layer": "",
-      "name": "NewTiledSprite",
-      "persistentUuid": "c89b7484-1b9e-4109-b6fc-c28f2b83be14",
-      "width": 2385,
-      "x": -256,
-      "y": -201,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -75,59 +59,14 @@
       "angle": 90,
       "customSize": true,
       "depth": 1,
-      "height": 408,
+      "height": 205,
       "layer": "",
       "name": "Mama_Duck",
       "persistentUuid": "6a8d489e-d6cd-4948-99b5-9f68163e351e",
-      "width": 421,
-      "x": 769,
-      "y": -47,
+      "width": 201,
+      "x": 915,
+      "y": 61,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Mama_Duck",
-      "persistentUuid": "05635926-435f-4466-aeab-19901b7dc462",
-      "width": 0,
-      "x": 702,
-      "y": 79,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Mama_Duck",
-      "persistentUuid": "d40920a3-633f-42d1-b178-b3749408f56c",
-      "width": 0,
-      "x": 598,
-      "y": 78,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Mama_Duck",
-      "persistentUuid": "7be938ee-66c3-439e-8c18-69bcd0138830",
-      "width": 0,
-      "x": 487,
-      "y": 78,
-      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -142,7 +81,7 @@
       "persistentUuid": "61ccb065-d632-4049-af08-9e662265036b",
       "width": 350,
       "x": 1922,
-      "y": 846,
+      "y": 780,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -173,9 +112,73 @@
       "name": "NewSprite2",
       "persistentUuid": "fbc0f2b0-a8c7-4d4d-a11b-e1564b526f6c",
       "width": 700,
-      "x": 994,
-      "y": 131,
+      "x": 1035,
+      "y": 134,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1025,
+      "layer": "",
+      "name": "NewPanelSprite",
+      "persistentUuid": "f5ed769f-d2e9-4be7-ba97-22213dc23f66",
+      "width": 1929,
+      "x": -5,
+      "y": -3,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 92,
+      "customSize": true,
+      "depth": 2,
+      "height": 151,
+      "layer": "",
+      "name": "BabyDuck",
+      "persistentUuid": "ef754b8a-3e32-41a0-a7a0-8ae41709ab4d",
+      "width": 151,
+      "x": 757,
+      "y": 90,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 92,
+      "customSize": true,
+      "depth": 2,
+      "height": 151,
+      "layer": "",
+      "name": "BabyDuck",
+      "persistentUuid": "409a542d-ef03-4cfd-8015-f6e476fb672a",
+      "width": 151,
+      "x": 613,
+      "y": 90,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 92,
+      "customSize": true,
+      "depth": 2,
+      "height": 151,
+      "layer": "",
+      "name": "BabyDuck",
+      "persistentUuid": "3ed0e988-a795-4f58-8ac1-c1b5ad7e1252",
+      "width": 151,
+      "x": 468,
+      "y": 86,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -395,7 +398,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "mommyduck3",
+                  "image": "mommyduck7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -468,7 +471,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite6",
+                  "image": "NewSprite17",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -504,7 +507,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite7",
+                  "image": "NewSprite18",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -665,6 +668,120 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 32,
+      "leftMargin": 0,
+      "name": "NewPanelSprite",
+      "rightMargin": 0,
+      "texture": "pond background.png",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "BabyDuck",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "up",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "down",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "left",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "right",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ScreenWrap",
+          "type": "ScreenWrap::ScreenWrap",
+          "HorizontalWrapping": true,
+          "VerticalWrapping": true,
+          "BorderTop": 0,
+          "BorderLeft": 0,
+          "BorderRight": 0,
+          "BorderBottom": 0,
+          "TriggerOffset": 100
+        }
+      ],
+      "animations": [
+        {
+          "name": "mommyduck2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mommyduck8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 99,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 52
+                      },
+                      {
+                        "x": 45.5,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -686,6 +803,9 @@
         "objectName": "Mama_Duck"
       },
       {
+        "objectName": "BabyDuck"
+      },
+      {
         "objectName": "EnemySnake"
       },
       {
@@ -693,6 +813,9 @@
       },
       {
         "objectName": "NewSprite2"
+      },
+      {
+        "objectName": "NewPanelSprite"
       }
     ]
   },
@@ -742,6 +865,32 @@
           },
           "parameters": [
             "Mama_Duck",
+            "360",
+            "400",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Arret"
+          },
+          "parameters": [
+            "BabyDuck"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceAL"
+          },
+          "parameters": [
+            "BabyDuck",
             "360",
             "400",
             ""
