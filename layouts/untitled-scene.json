@@ -18,7 +18,7 @@
     "gridColor": 10532095,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1878173288053039,
+    "zoomFactor": 0.3411856023473453,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -41,14 +41,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1925,
+      "height": 1150,
       "layer": "",
-      "name": "_256",
-      "persistentUuid": "60831c30-1a89-4cc7-96a5-ec17c05085b3",
-      "width": 3067,
-      "x": -385,
-      "y": -256,
-      "zOrder": 1,
+      "name": "NewPanelSprite",
+      "persistentUuid": "963871d8-b479-46f2-9b03-2d53f5bd4742",
+      "width": 2076,
+      "x": -87,
+      "y": -98,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -614,7 +614,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "mommyduck3",
+                  "image": "mommyduck5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -775,7 +775,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite6",
+                  "image": "NewSprite13",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -811,7 +811,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite7",
+                  "image": "NewSprite14",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -850,6 +850,22 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 32,
+      "leftMargin": 0,
+      "name": "NewPanelSprite",
+      "rightMargin": 0,
+      "texture": "pond background.png2",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -893,6 +909,9 @@
       },
       {
         "objectName": "EnemySnake"
+      },
+      {
+        "objectName": "NewPanelSprite"
       }
     ]
   },
@@ -926,8 +945,8 @@
               "parameters": [
                 "",
                 "Mama_Duck",
-                "0",
-                "0",
+                "128",
+                "128",
                 ""
               ]
             },
@@ -947,8 +966,8 @@
               "parameters": [
                 "",
                 "Egg",
-                "RandomWithStep(0,1919,128)",
-                "RandomWithStep(0,1019,128)",
+                "RandomWithStep(128,1700,128)",
+                "RandomWithStep(128,900,128)",
                 ""
               ]
             },
@@ -989,6 +1008,28 @@
               "parameters": [
                 "",
                 "NewTiledSprite"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Mama_Duck",
+                "right",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardAngle"
+              },
+              "parameters": [
+                "Mama_Duck",
+                "90",
+                "0",
+                ""
               ]
             }
           ]
@@ -1942,8 +1983,8 @@
                   "parameters": [
                     "",
                     "EnemySnake",
-                    "RandomWithStep(0,1919,128)",
-                    "RandomWithStep(0,1019,128)",
+                    "RandomWithStep(128,1700,128)",
+                    "RandomWithStep(0,900,128)",
                     ""
                   ]
                 },
@@ -2175,9 +2216,9 @@
                   "parameters": [
                     "Egg",
                     "=",
-                    "RandomWithStep(0,1919,128)",
+                    "RandomWithStep(128,1700,128)",
                     "=",
-                    "RandomWithStep(0,1019,128)"
+                    "RandomWithStep(128,900,128)"
                   ]
                 },
                 {
