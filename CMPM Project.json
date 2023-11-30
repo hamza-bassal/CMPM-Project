@@ -784,6 +784,15 @@
         "name": "egg66.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snake1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snake1.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
