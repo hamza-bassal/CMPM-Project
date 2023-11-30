@@ -748,6 +748,42 @@
         "name": "pond background.png2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mamaduck66.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mamaduck66.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "duckling66.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "duckling66.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/duckling66.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/duckling66.png\"}",
+        "name": "duckling66",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "egg66.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"egg66.png\",\"extension\":\".png\"}",
+        "name": "egg66.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

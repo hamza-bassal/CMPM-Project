@@ -18,7 +18,7 @@
     "gridColor": 10532095,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3411856023473453,
+    "zoomFactor": 0.38958562738272895,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -99,13 +99,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 0,
           "leftEdgeAnchor": 0,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 0,
           "topEdgeAnchor": 0,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ]
@@ -726,13 +726,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 2,
           "leftEdgeAnchor": 1,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 2,
           "topEdgeAnchor": 1,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ]
@@ -747,10 +747,10 @@
       "effects": [],
       "behaviors": [
         {
-          "cellHeight": 64,
-          "cellWidth": 64,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "cellHeight": 64,
+          "cellWidth": 64,
           "acceleration": 9999,
           "allowDiagonals": false,
           "angleOffset": 0,
@@ -866,6 +866,188 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "mommy_duck_64",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mamaduck66.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 0
+                      },
+                      {
+                        "x": 41,
+                        "y": 0
+                      },
+                      {
+                        "x": 41,
+                        "y": 53
+                      },
+                      {
+                        "x": 18,
+                        "y": 53
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "duckling64",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "duckling66",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "duckling66",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 4
+                      },
+                      {
+                        "x": 52,
+                        "y": 4
+                      },
+                      {
+                        "x": 52,
+                        "y": 61
+                      },
+                      {
+                        "x": 10,
+                        "y": 61
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "egg64",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "egg66",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "egg66.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 5
+                      },
+                      {
+                        "x": 61,
+                        "y": 5
+                      },
+                      {
+                        "x": 61,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -912,6 +1094,15 @@
       },
       {
         "objectName": "NewPanelSprite"
+      },
+      {
+        "objectName": "mommy_duck_64"
+      },
+      {
+        "objectName": "duckling64"
+      },
+      {
+        "objectName": "egg64"
       }
     ]
   },
