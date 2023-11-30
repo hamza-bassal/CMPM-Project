@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4303403802207664,
+    "zoomFactor": 1.4201106106001848,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -49,8 +49,8 @@
       "name": "NewTiledSprite",
       "persistentUuid": "c89b7484-1b9e-4109-b6fc-c28f2b83be14",
       "width": 2385,
-      "x": -253,
-      "y": -194,
+      "x": -256,
+      "y": -201,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -399,8 +399,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 13,
-                    "y": 8
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,

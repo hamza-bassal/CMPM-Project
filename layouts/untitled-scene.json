@@ -18,7 +18,7 @@
     "gridColor": 10532095,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4200418165235011,
+    "zoomFactor": 0.1878173288053039,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -46,8 +46,8 @@
       "name": "_256",
       "persistentUuid": "60831c30-1a89-4cc7-96a5-ec17c05085b3",
       "width": 3067,
-      "x": -383,
-      "y": -263,
+      "x": -385,
+      "y": -256,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -97,7 +97,18 @@
       "width": 128,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ]
     },
     {
       "adaptCollisionMaskAutomatically": false,
@@ -607,8 +618,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 13,
-                    "y": 8
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -713,7 +724,18 @@
       "width": 256,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ]
     },
     {
       "adaptCollisionMaskAutomatically": false,
@@ -725,14 +747,14 @@
       "effects": [],
       "behaviors": [
         {
+          "cellHeight": 64,
+          "cellWidth": 64,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 9999,
           "allowDiagonals": false,
           "angleOffset": 0,
           "angularMaxSpeed": 999,
-          "cellHeight": 20,
-          "cellWidth": 20,
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
@@ -925,8 +947,8 @@
               "parameters": [
                 "",
                 "Egg",
-                "RandomWithStep(0,1920,128)",
-                "RandomWithStep(0,1080,128)",
+                "RandomWithStep(0,1919,128)",
+                "RandomWithStep(0,1019,128)",
                 ""
               ]
             },
@@ -959,6 +981,15 @@
                 "",
                 "\"Sound\""
               ]
+            },
+            {
+              "type": {
+                "value": "AjoutHasard"
+              },
+              "parameters": [
+                "",
+                "NewTiledSprite"
+              ]
             }
           ]
         },
@@ -967,7 +998,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "keys",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1912,8 +1942,8 @@
                   "parameters": [
                     "",
                     "EnemySnake",
-                    "RandomWithStep(0,640,64)",
-                    "RandomWithStep(0,640,64)",
+                    "RandomWithStep(0,1919,128)",
+                    "RandomWithStep(0,1019,128)",
                     ""
                   ]
                 },
@@ -2145,9 +2175,9 @@
                   "parameters": [
                     "Egg",
                     "=",
-                    "RandomWithStep(0,570,64)",
+                    "RandomWithStep(0,1919,128)",
                     "=",
-                    "RandomWithStep(0,570,64)"
+                    "RandomWithStep(0,1019,128)"
                   ]
                 },
                 {
@@ -2450,6 +2480,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
