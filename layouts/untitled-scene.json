@@ -18,7 +18,7 @@
     "gridColor": 10532095,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.11147313741362513,
+    "zoomFactor": 0.4200418165235011,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -482,7 +482,7 @@
       "string": "Score",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 20,
+      "characterSize": 50,
       "color": {
         "b": 0,
         "g": 0,
@@ -925,8 +925,8 @@
               "parameters": [
                 "",
                 "Egg",
-                "RandomWithStep(0,570,64)",
-                "RandomWithStep(0,570,64)",
+                "RandomWithStep(0,1920,128)",
+                "RandomWithStep(0,1080,128)",
                 ""
               ]
             },
@@ -950,6 +950,15 @@
                 "0",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Sound\""
+              ]
             }
           ]
         },
@@ -958,7 +967,8 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "CONTROL CHANGE",
+          "folded": true,
+          "name": "keys",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -1414,7 +1424,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "MOVEMENT",
+          "name": "movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -1440,9 +1450,9 @@
                   },
                   "parameters": [
                     "",
-                    "splashing.wav",
+                    "quack_5.mp3",
                     "",
-                    "10",
+                    "40",
                     "1"
                   ]
                 }
@@ -1802,6 +1812,40 @@
                   ]
                 }
               ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Quack\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Sound\"",
+                    ">=",
+                    "1"
+                  ]
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -1809,9 +1853,9 @@
                   },
                   "parameters": [
                     "",
-                    "Big duck sound2.wav",
+                    "981f236e93a83fe4ff25567b7e9fb362e341f13654a00fd51e515e428218a5b2_WaterV2_Walk_03.wav",
                     "",
-                    "40",
+                    "15",
                     "1"
                   ]
                 }
@@ -1827,7 +1871,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Quack\""
+                        "\"Sound\""
                       ]
                     }
                   ]

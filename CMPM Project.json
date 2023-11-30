@@ -670,6 +670,30 @@
         "name": "NewSprite12",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/WaterV2_Walk_03.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "981f236e93a83fe4ff25567b7e9fb362e341f13654a00fd51e515e428218a5b2_WaterV2_Walk_03.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Footsteps/Water/Walk/981f236e93a83fe4ff25567b7e9fb362e341f13654a00fd51e515e428218a5b2_WaterV2_Walk_03.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "quack_5.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "quack_5.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
