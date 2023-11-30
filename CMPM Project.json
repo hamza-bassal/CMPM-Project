@@ -793,6 +793,24 @@
         "name": "snake1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snek2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snek2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snek3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snek3.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
