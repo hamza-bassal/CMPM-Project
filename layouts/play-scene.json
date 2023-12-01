@@ -2344,6 +2344,26 @@
                     "\"RanOver\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "FinalScore",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "PlayerNamer",
+                    "=",
+                    "\"Ducky\""
+                  ]
                 }
               ]
             },
@@ -2410,6 +2430,26 @@
                     "\"LeftPond\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "FinalScore",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "PlayerNamer",
+                    "=",
+                    "\"Ducky\""
+                  ]
                 }
               ]
             },
@@ -2447,6 +2487,26 @@
                     "",
                     "\"LeftPond\"",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "FinalScore",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "PlayerNamer",
+                    "=",
+                    "\"Ducky\""
                   ]
                 }
               ]
@@ -2486,6 +2546,26 @@
                     "\"LeftPond\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "FinalScore",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "PlayerNamer",
+                    "=",
+                    "\"Ducky\""
+                  ]
                 }
               ]
             },
@@ -2524,13 +2604,28 @@
                     "\"LeftPond\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "FinalScore",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "PlayerNamer",
+                    "=",
+                    "\"Ducky\""
+                  ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": []
