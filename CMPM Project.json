@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "d805a102-b7d1-44d5-84f4-f9e45572ac7f",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "adaptHeight",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -24,7 +24,7 @@
     "description": "",
     "author": "",
     "windowWidth": 1920,
-    "windowHeight": 1020,
+    "windowHeight": 1080,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -1102,6 +1102,58 @@
         "name": "NewSprite38",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down-Arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Down-Arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/d3fb68b75ad1b0642d0f1cd8bac75bb9e0569b9ced849b3cabbbe28a0ade2d24_Down-Arrow.png",
+          "name": "Down-Arrow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left-Arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left-Arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/5ea4dd66c25ef6448400fc835ad39b59f1d57f8a5d2071f70d9f30acf50e4b44_Left-Arrow.png",
+          "name": "Left-Arrow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right-Arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right-Arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/3ac4ccfca394be1b0e90c245ed85246d69ad1324d0cc398d74b9a944f9e14605_Right-Arrow.png",
+          "name": "Right-Arrow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Up-Arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Up-Arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/7b383cecdb349d0af940cdb58305e1a349e4a79293f3d2ffedf6ddedc30cf738_Up-Arrow.png",
+          "name": "Up-Arrow.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -1137,6 +1189,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/ranover"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/how-to-play"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

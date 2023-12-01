@@ -28,7 +28,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1020,
+      "height": 1078,
       "layer": "",
       "name": "NewPanelSprite",
       "persistentUuid": "a6325932-7078-4e5f-9361-50f2c66c39b8",
@@ -100,21 +100,6 @@
       "x": 1207,
       "y": 442,
       "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Score",
-      "persistentUuid": "96179fce-9578-429b-b885-009fe025d823",
-      "width": 0,
-      "x": 562,
-      "y": 449,
-      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1103,17 +1088,6 @@
             "PlayerNamer",
             "=",
             "input.Text()"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "Score",
-            "Text",
-            "=",
-            "PlayerNamer"
           ]
         },
         {

@@ -35,7 +35,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1150,
+      "height": 1220,
       "layer": "",
       "name": "NewPanelSprite",
       "persistentUuid": "963871d8-b479-46f2-9b03-2d53f5bd4742",
@@ -741,9 +741,9 @@
       "effects": [],
       "behaviors": [
         {
-          "maxSpeed": 128,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "maxSpeed": 128,
           "cellHeight": 64,
           "cellWidth": 64,
           "acceleration": 9999,
