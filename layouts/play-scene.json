@@ -2070,6 +2070,36 @@
                     "3"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::DestinationReached"
+                      },
+                      "parameters": [
+                        "EnemySnake",
+                        "Pathfinding"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::SetDestination"
+                      },
+                      "parameters": [
+                        "EnemySnake",
+                        "Pathfinding",
+                        "",
+                        "Duckling.PointX(\"center\")",
+                        "Duckling.PointY(\"center\")"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
