@@ -182,6 +182,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 97,
+      "layer": "",
+      "name": "BlueButtonWithShadow",
+      "persistentUuid": "75a675e2-ee61-431d-b0ae-e22209d47210",
+      "width": 249,
+      "x": 814,
+      "y": 714,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -255,7 +271,7 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "BUTTON",
+          "string": "How To Play",
           "font": "CantoraOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 40,
@@ -929,6 +945,32 @@
           "parameters": [
             "EnemySnake",
             "Animation"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+          },
+          "parameters": [
+            "BlueButtonWithShadow",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Untitled scene\"",
+            ""
           ]
         }
       ]
