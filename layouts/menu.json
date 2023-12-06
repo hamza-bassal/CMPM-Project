@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.36458333333333715,
+    "zoomFactor": 0.3300560049165959,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,11 +28,11 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 560,
+      "height": 243,
       "layer": "",
       "name": "NewBBText",
       "persistentUuid": "68490d9d-f941-4a92-ba2d-61a97c5b752e",
-      "width": 652,
+      "width": 383,
       "x": 763,
       "y": 312,
       "zOrder": 1,
@@ -48,8 +48,8 @@
       "name": "GreenButton",
       "persistentUuid": "88764b5c-bb81-43eb-9167-8e08059e6d77",
       "width": 0,
-      "x": 816,
-      "y": 601,
+      "x": 818,
+      "y": 557,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -192,9 +192,25 @@
       "name": "BlueButtonWithShadow",
       "persistentUuid": "75a675e2-ee61-431d-b0ae-e22209d47210",
       "width": 249,
-      "x": 819,
-      "y": 715,
+      "x": 821,
+      "y": 666,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 104,
+      "layer": "",
+      "name": "GreyButton",
+      "persistentUuid": "ad6a0d72-86d2-48df-9cc7-876525f574cf",
+      "width": 250,
+      "x": 821,
+      "y": 766,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -798,6 +814,69 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
+      "name": "GreyButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Grey Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Grey Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Credits",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 60,
+          "color": {
+            "b": 79,
+            "g": 72,
+            "r": 72
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Grey Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -832,6 +911,9 @@
       },
       {
         "objectName": "NewPanelSprite"
+      },
+      {
+        "objectName": "GreyButton"
       }
     ]
   },
@@ -1006,6 +1088,32 @@
           "parameters": [
             "",
             "\"How to Play\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+          },
+          "parameters": [
+            "GreyButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Credits\"",
             ""
           ]
         }
