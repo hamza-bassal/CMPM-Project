@@ -1193,6 +1193,26 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e3269fc6a93f1d6083564069b4d14c7e31df6bfc96d27f82c791d2210242315a_Red Button_Pressed.png",
           "name": "Red Button_Pressed.png"
         }
+      },
+      {
+        "file": "song-of-little-ducks-113996.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "song-of-little-ducks-113996.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "song-of-little-ducks-113995.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "song-of-little-ducks-113995.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

@@ -1025,6 +1025,27 @@
                 "0",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Music\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "song-of-little-ducks-113995.mp3",
+                "yes",
+                "10",
+                "1"
+              ]
             }
           ]
         },
@@ -1504,7 +1525,7 @@
                     "RTB",
                     "\"RTB\"",
                     ">",
-                    "0.3"
+                    "0.1"
                   ]
                 }
               ],
@@ -1850,6 +1871,7 @@
               ]
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1907,7 +1929,7 @@
                     "",
                     "\"Sound\"",
                     ">=",
-                    "1"
+                    "3"
                   ]
                 }
               ],
