@@ -5,7 +5,7 @@
   "name": "Play Scene",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -1025,27 +1025,6 @@
                 "0",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Music\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "song-of-little-ducks-113995.mp3",
-                "yes",
-                "10",
-                "1"
-              ]
             }
           ]
         },
@@ -2022,7 +2001,7 @@
                     "",
                     "Hiss.wav",
                     "",
-                    "40",
+                    "10",
                     "1"
                   ]
                 },
@@ -2179,7 +2158,7 @@
                     "",
                     "snake eat.wav",
                     "",
-                    "80",
+                    "50",
                     "1"
                   ]
                 },
@@ -2191,7 +2170,7 @@
                     "",
                     "tiny duck quack.wav",
                     "",
-                    "80",
+                    "50",
                     ".1"
                   ]
                 }
@@ -2231,7 +2210,7 @@
                     "",
                     "Bump.wav",
                     "",
-                    "70",
+                    "50",
                     "1"
                   ]
                 }
@@ -2313,7 +2292,7 @@
                     "",
                     "tiny duck quack.wav",
                     "",
-                    "100",
+                    "60",
                     "1"
                   ]
                 },
