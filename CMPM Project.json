@@ -1252,6 +1252,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/49c35e14af0e1f7aae407455cb944de96328955870e5f1500f63723ad879a42e_Grey Button_Pressed.png",
           "name": "Grey Button_Pressed.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Music-0.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Music-0.png\",\"extension\":\".png\"}",
+        "name": "Music-0.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/3eb01c888b3aa10570435e1052a0354f2f2921278845e2c37cc8cdfade584ab6_Music-0.png",
+          "name": "Music-0.png"
+        }
       }
     ],
     "resourceFolders": []

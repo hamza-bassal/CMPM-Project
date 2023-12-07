@@ -181,6 +181,54 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 67,
+      "layer": "",
+      "name": "Song_Credit",
+      "persistentUuid": "b212b0b9-5b10-48c2-84ff-4cfed8ddcb75",
+      "width": 487,
+      "x": 1099,
+      "y": 489,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 144,
+      "layer": "",
+      "name": "NewBBText",
+      "persistentUuid": "a9d454d2-ac7c-478a-ac3d-68f8f4cf6a48",
+      "width": 569,
+      "x": 1109,
+      "y": 580,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 115,
+      "layer": "",
+      "name": "Music0",
+      "persistentUuid": "39b5951d-6a3f-4bbb-9aec-5227e934a2fe",
+      "width": 117,
+      "x": 955,
+      "y": 566,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -192,11 +240,11 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font\n[spacing=12]spaced out[/spacing]\n[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] ",
+        "text": "Music by AudioCoffee: https://www.audiocoffee.net/",
         "opacity": 255,
-        "fontSize": 20,
+        "fontSize": 40,
         "visible": true,
-        "color": "0;0;0",
+        "color": "255;255;255",
         "fontFamily": "Arial",
         "align": "left",
         "wordWrap": true
@@ -213,7 +261,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Programming                               Art&Animation                          \n\n\n\nSound                                          ",
+      "string": "Programming                               Art&Animation                          \n\n\n\nSound                                          \n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 60,
@@ -1800,6 +1848,85 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Song_Credit",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Gameplay Song",
+        "opacity": 255,
+        "fontSize": 60,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "d41033b5758f8014279eb0a191fc8e238078a893c1f9e82f9467facbbe723c45",
+      "name": "Music0",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Music-0",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Music-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 12,
+                        "y": 0
+                      },
+                      {
+                        "x": 12,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1807,6 +1934,9 @@
     "children": [
       {
         "objectName": "NewBBText"
+      },
+      {
+        "objectName": "Song_Credit"
       },
       {
         "objectName": "InstructionsLabels"
@@ -1864,6 +1994,9 @@
       },
       {
         "objectName": "Momtxt"
+      },
+      {
+        "objectName": "Music0"
       }
     ]
   },
