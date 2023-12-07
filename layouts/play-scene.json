@@ -516,10 +516,46 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.2,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "babyduck6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0.5,
+                        "y": 2
+                      },
+                      {
+                        "x": 62,
+                        "y": 2
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "babyduck5",
@@ -602,13 +638,49 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"mamaduck70\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":7,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAABDdJREFUeF7tm6FvVEEQxt/xB5AmGFLRBNIQUltLTuBoCAqFQiAwGCwai8EgECgUipDiEBdsbUNIA0lFgyFp+AM4MgdzGba7t2/f25m3sztVTe/du/d9+5tvZl/fzTr7adqBWdPqTXxnADQOgQFgADTuQOPyLQEMgGkcWC4uL/GTZ/NfzYFYiv5JjKfiW4SgJP0GwAQBaACQ+LcE+OvAVG3QEsASQM6Brf2d9eAX+tTzo9NJoJRwoUT9Ymb3EY+LUCMEpeoXASBFfI0QlKxfFIDzo9Nua38nmLb09ZpSAAEoUb8BIND8DYAew5+7DjUmQAprUvpFE6BEA1KuaeixNgNYAkS3v1MloCXA0LJOeF/zCQBepZgg1f8S1nD0oaXqF0mAxcf3y92be93e/dtRI4/ffepOvhx38zv3RK4tekEZDihZv4jJaAB6efjs4QVbD56/+e9vtUDgageRMf2S2lkBAPG4qpAAqQDA8ZqTAPVT7X0BQK+49bMBEFp8HwRu9cMxUAVSJmRI+Qun0KK/WAAoBNxVwAmAW/2lFQALAKHoo0bTPuhLAM0pEKt+tw2E9EsUwSQAxIYgBEVrG4gB0Fe/SgCGiMcFr2EW0KY/ewJsMsBHvtt/fdtBTcOgNv1iAPRZfF8SaGsDKVvf0PBJi4Bbf5EAgDFoArcBuXcAPgBS4KfaJQZhNgBiN35ixrcMQAgCju0wOwCp9FMwXAg4DIiBmPq6uwUuXT8LAFj9Y8S784Dk/fHURafH03v/GvQbAGNW2/NeA+Dfv37du11DfaZtQEsL0JSAlgBDyQy8zxLAEmD18IuWBGRJABAPJuQagvBegJYWoEk/KwA5qgBmgFYBkNgGZwcAFj1nH0QANFQ/jgWof2wCSgzA7ACMSQFt1U8BGNsG3P8HcBUAGwBowFAAJOIv8wZgfbocdwOl9LMA4LaBIRBIxB8XAGPboFT1w3UaAEwUjJmDqgGAtoGUFJCKP6a1X512aBvwPQvA1f9ZE8DXBvpCoHX4c4GiEPTZEUzx5Ri2FuCrgj4A1FD9vt1AinY4VureBysAFII+uwLfQyA3Dh93V1+esV9n7nbw48n28uvBq/VpY7eHp3oAht1Y+ohUbG/smgCLDz9aAYBrRwj6AEAff4P3cvZ+JHMSAPDDfV8OoSYgANoggOpHjbEUCD0AWg0AbhsItYJQ9dNo1pAEdPFdCHwp4It+qcVn3wXQxfN9XSyUALTyawAAW8EmACQHP+opewtImYhx+1czAJu+FiY1+U8CAH7o2feTZWhPDABcejEPDuRaWwAK+v10EXxGArRvX9sVK0ixIdBdzU0AwLF3r3xbTf3YS93fc2/Xcp8vdN3w9w8/rwc/rhkAwIHXD24tQTAmAf7+6O1n8QrIDUDsfKVpr97w2IK0/roB0DgBBoAB0LgDjcu3BDAAGnegcfl/AGLVjW734XbtAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[2]}}\",\"resourceNames\":[\"mommyduck11\",\"mommyduck9\"],\"name\":\"mommyduck2\"}}",
+              "timeBetweenFrames": 0.4,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "mommyduck6",
+                  "image": "mommyduck11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 53,
+                        "y": 0
+                      },
+                      {
+                        "x": 37,
+                        "y": 57.5
+                      },
+                      {
+                        "x": 28,
+                        "y": 56.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mommyduck9",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2645,6 +2717,22 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Duckling",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+          },
+          "parameters": [
+            "Duckling",
+            "Animation"
+          ]
+        }
+      ]
     }
   ],
   "layers": [

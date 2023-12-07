@@ -798,7 +798,7 @@
         "alwaysLoaded": false,
         "file": "assets/babyduck6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/babyduck6.png\"}",
         "name": "babyduck5",
         "smoothed": false,
         "userAdded": true
@@ -1355,6 +1355,42 @@
         "name": "duckling69",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mommyduck10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/mommyduck10.png\"}",
+        "name": "mommyduck9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mommyduck10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mommyduck10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mommyduck11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mommyduck11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/babyduck7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/babyduck7.png\"}",
+        "name": "babyduck6",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
