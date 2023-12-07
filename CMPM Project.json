@@ -1391,6 +1391,15 @@
         "name": "babyduck6",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/babyduck5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\babyduck5.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
