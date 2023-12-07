@@ -1265,6 +1265,96 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/3eb01c888b3aa10570435e1052a0354f2f2921278845e2c37cc8cdfade584ab6_Music-0.png",
           "name": "Music-0.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mamaduck67.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mamaduck67.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mamaduck67.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/mamaduck67.png\"}",
+        "name": "mamaduck67",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mamaduck68.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mamaduck68.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mamaduck69.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mamaduck69.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mamaduck70.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"mamaduck70.png\",\"extension\":\".png\"}",
+        "name": "mamaduck70.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mamaduck70.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mamaduck70",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "duckling67.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "duckling67.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/duckling68.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "duckling68",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "duckling68.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "duckling68.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/duckling69.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "duckling69",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
